@@ -9,6 +9,9 @@
 -  `sudo git clone https://github.com/odoo/odoo.git --depth 1 --branch 15.0 odoo`
 -   `python3 -m venv odooEnv`
 -   `source odooEnv/bin/activate`
+-   `pip install --upgrade cython`
+-   `pip install --upgrade gevent`
+
 `
 
 
