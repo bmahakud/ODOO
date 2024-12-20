@@ -4,5 +4,10 @@
 -  `sudo apt install postgresql postgresql-server-dev-all -y`
 -  `sudo -u postgres psql`
 -  `CREATE USER odoo WITH PASSWORD 'password'`
+-  `CREATE DATABASE odoo OWNER odoo`
+-  `cd /opt`
+-  `sudo git clone https://github.com/odoo/odoo.git --depth 1 --branch 15.0 odoo`
+-  
+`
 
 
